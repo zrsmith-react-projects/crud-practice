@@ -1,0 +1,114 @@
+body {
+  background: url('./assests/safari.jpg') ;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 1rem 0rem 1rem 3rem;
+  font-size: 3rem;
+  text-decoration: none;
+  color: rgba(0,0,0,1);
+}
+
+.adventure {
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 10rem;
+}
+
+.start {
+  text-decoration: none;
+  color: rgba(0,0,0,1);
+  background-color: rgba(232, 232, 232, 1);
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+  margin-left: 2.5rem;
+  font-size: 1rem;
+}
+
+.start:hover {
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0,0,0,0.5);
+}
+
+.input {
+  font-size: 1rem;
+  padding-left: 0.8rem;
+  margin-left: 2rem;
+  border-radius: 5%;
+}
+
+.nav-links {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(0,0,0,1);
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: rgba(255,255,255,1);
+  text-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,1);
+}
+
+.dash {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.animals-list {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  background-color: rgba(232, 232, 232, 1);
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0,0,0,0.5);
+  width: 16rem;
+  border-radius: 0.8rem;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.organized {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-animals {
+  list-style-type: none;
+  padding: 0.8rem 0rem 0.8rem 0.8rem;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  width: 100%;
+  justify-content: end;
+}
+
+.card {
+  background-color: rgba(232, 232, 232, 1);
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0,0,0,0.5);
+  width: 10rem;
+  height: 14rem;
+  margin: 1rem;
+  border-radius: 0.8rem;
+}

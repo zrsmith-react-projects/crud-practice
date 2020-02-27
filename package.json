@@ -1,0 +1,24 @@
+{
+    "name": "crud_prep",
+    "version": "1.0.0",
+    "description": "CRUD practice for TLs - Unit 3 Week 3",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/seanaleid/CRUD-prep"
+    },
+    "author": "Sean Naleid",
+    "license": "ISC",
+    "homepage": "https://github.com/seanaleid/CRUD-prep",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}

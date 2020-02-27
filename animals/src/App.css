@@ -1,5 +1,5 @@
 body {
-  background: url('./assests/safari.jpg') ;
+  background: url("https://images.unsplash.com/photo-1519659528534-7fd733a832a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1226&q=80");
 }
 
 .App {
@@ -15,7 +15,7 @@ body {
   margin: 1rem 0rem 1rem 3rem;
   font-size: 3rem;
   text-decoration: none;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .adventure {
@@ -26,7 +26,7 @@ body {
 
 .start {
   text-decoration: none;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   background-color: rgba(232, 232, 232, 1);
   padding: 0.5rem 1rem;
   border-radius: 0.8rem;
@@ -35,7 +35,7 @@ body {
 }
 
 .start:hover {
-  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0,0,0,0.5);
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0, 0, 0, 0.5);
 }
 
 .input {
@@ -55,13 +55,13 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: rgba(255,255,255,1);
-  text-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,1);
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 1);
 }
 
 .dash {
@@ -73,7 +73,7 @@ body {
   margin-left: 3rem;
   margin-right: 3rem;
   background-color: rgba(232, 232, 232, 1);
-  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0,0,0,0.5);
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0, 0, 0, 0.5);
   width: 16rem;
   border-radius: 0.8rem;
 }
@@ -106,7 +106,7 @@ ul {
 
 .card {
   background-color: rgba(232, 232, 232, 1);
-  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0,0,0,0.5);
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0, 0, 0, 0.5);
   width: 10rem;
   height: 14rem;
   margin: 1rem;

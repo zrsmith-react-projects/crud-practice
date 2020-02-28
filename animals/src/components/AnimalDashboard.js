@@ -6,6 +6,7 @@ import { axiosWithAuth } from "../utils/axiosWithAuth.js";
 
 export default function AnimalDashboard() {
   const [animals, setAnimals] = useState([]);
+  const [update, setUpdate] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -25,12 +26,16 @@ export default function AnimalDashboard() {
           setIsLoading(false);
         });
     }, 2000);
-  }, []);
+  }, [update]);
 
   return (
     <div className="dash">
-      {isLoading ? "LOADING" : ""}
-      <AnimalForm animals={animals} updateAnimals={setAnimals} />
+      {update ? "LOADING" : ""}
+      <AnimalForm
+        animals={animals}
+        updateAnimals={setAnimals}
+        update={setUpdate}
+      />
       <AnimalList animals={animals} />
     </div>
   );

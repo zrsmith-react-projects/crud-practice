@@ -7,7 +7,7 @@ const initialAnimal = {
   classification: { species: "" }
 };
 
-export default function AnimalForm({ animals, updateAnimals }) {
+export default function AnimalForm({ animals, updateAnimals, update }) {
   const [updating, setUpdating] = useState(false);
   const [animalToUpdate, setAnimalToUpdate] = useState(initialAnimal);
 
@@ -22,10 +22,13 @@ export default function AnimalForm({ animals, updateAnimals }) {
     // Where can we get the ID?
     // Where is the information stored?
     axiosWithAuth()
-      .put()
-      .then()
+      .put(`animals/${animalToUpdate.id}`, animalToUpdate)
+      .then(response => {
+        console.log(response.data);
+        setUpdating(false);
+      })
       .catch(error => {
-        console.log(`error with PUT ${error}`);
+        console.log(`error with PUT ${error.response}`);
       });
   };
 

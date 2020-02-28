@@ -17,6 +17,7 @@ export default function AnimalDashboard() {
         .then(response => {
           console.log(response.data);
           setAnimals(response.data);
+          setUpdate(false);
           setIsLoading(false);
         })
         .catch(error => {

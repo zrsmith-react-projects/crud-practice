@@ -25,6 +25,8 @@ export default function AnimalForm({ animals, updateAnimals, update }) {
       .put(`animals/${animalToUpdate.id}`, animalToUpdate)
       .then(response => {
         console.log(response.data);
+        updateAnimals(animals);
+        update(true);
         setUpdating(false);
       })
       .catch(error => {
